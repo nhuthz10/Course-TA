@@ -1,0 +1,33 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --header-height: 90px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    min-width: 189px;
+    height: 57px;
+    text-decoration: none;
+    border-bottom: 5px solid #58A700;
+    border-radius: 15px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #58CC02;
+}
