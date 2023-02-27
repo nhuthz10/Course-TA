@@ -6,7 +6,7 @@
 /* Header */
 
 .header {
-    background-color: #235390;
+    background-color: var(--main-color);
     position: fixed;
     top: 0;
     width: 100%;
@@ -46,14 +46,14 @@
 
 .nav__statr {
     color: var(--white-color);
-    background-color: #58CC02;
+    background-color: var(--green-color);
 }
 
 
 /* Slider */
 
 .slider {
-    background-color: #235390;
+    background-color: var(--main-color);
     margin-top: var(--header-height);
     position: relative;
 }
@@ -77,7 +77,7 @@
 }
 
 .slider__content-heading--color {
-    color: #58CC02;
+    color: var(--green-color);
 }
 
 .slider__content-text {
@@ -174,6 +174,30 @@
     align-items: center;
 }
 
+.reason__warp-img.reason__warp-img--background-brain {
+    background-image: url(../img/img_brain.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.reason__warp-img.reason__warp-img--background-phone {
+    background-image: url(../img/img_phone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.reason__warp-img.reason__warp-img--background-person {
+    background-image: url(../img/img_person.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.reason__warp-img.reason__warp-img--background-rocket {
+    background-image: url(../img/img_rocket.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .reason__text {
     font-size: 1.8rem;
     line-height: 2.5rem;
@@ -210,6 +234,9 @@
 
 .introcdece__wrap-img {
     display: flex;
+    background-image: url(../img/Ellipse\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     height: 52px;
@@ -333,7 +360,7 @@
 
 .comment-item__balloon--left {
     position: absolute;
-    background-color: #58CC02;
+    background-color: var(--green-color);
     border-radius: 22px;
     height: 34px;
     width: 40px;
@@ -344,7 +371,7 @@
 
 .comment-item__balloon--right {
     position: absolute;
-    background-color: #58CC02;
+    background-color: var(--green-color);
     border-radius: 22px;
     height: 34px;
     width: 40px;
@@ -363,7 +390,7 @@
 
 .revius-icon {
     font-size: 44px;
-    color: #235390;
+    color: var(--main-color);
 }
 
 .slick-next {
@@ -376,7 +403,7 @@
 
 .next-icon {
     font-size: 44px;
-    color: #235390;
+    color: var(--main-color);
 }
 
 .slick-dots {
@@ -400,7 +427,7 @@
 }
 
 .slick-dots .slick-active button {
-    background-color: #235390;
+    background-color: var(--main-color);
 }
 
 
@@ -426,7 +453,6 @@
 
 .info__input::placeholder {
     font-size: 1.8rem;
-    line-height: 1.8rem;
     font-weight: 500;
     color: #BEB2B2;
 }
@@ -461,13 +487,17 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #58CC02;
     border: unset;
+    background-image: url(../img/submit.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     object-fit: cover;
     object-position: center;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
-.info__submit:hover {
+.info__submit:active {
     transform: translateY(2px);
     opacity: 0.8;
 }
@@ -476,7 +506,7 @@
 /* footer */
 
 .footer {
-    background-color: #235390;
+    background-color: var(--main-color);
 }
 
 .footer_wrap {

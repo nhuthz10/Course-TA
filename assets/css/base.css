@@ -2,6 +2,10 @@
     --white-color: #fff;
     --black-color: #000;
     --header-height: 90px;
+    --main-color: #235390;
+    --green-color: #58CC02;
+    --height-input-login: 58px;
+    --width-input-login: 450px;
 }
 
 * {
@@ -30,9 +34,11 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #58CC02;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
-.btn:hover {
+.btn:active {
     transform: translateY(2px);
     opacity: 0.8;
 }

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -24,7 +24,7 @@
                     <h2 class="header__name">5Fs Group</h2>
                     <div class="nav">
                         <a href="" class="nav__course">Các khóa học</a>
-                        <a href="" class="nav__statr btn">Bắt đầu học</a>
+                        <a href="./login.html" class="nav__statr btn">Bắt đầu học</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     <div class="slider__content">
                         <div class="slider__content-heading">Học <span class="slider__content-heading--color">ngoại ngữ</span> và cải thiện kĩ năng của bản thân bạn</div>
                         <p class="slider__content-text">Ngoại ngữ hiện đang rất quan trọng trong cuộc sống giao tiếp hằng ngày, khi đi du lịch, trong công việc</p>
-                        <a href="" class="slider__content-start btn">Bắt đầu</a>
+                        <a href="./login.html" class="slider__content-start btn">Bắt đầu</a>
                     </div>
                     <img src="./assets/img/taxi-language-learning-1.png" alt="" class="slider__img">
                 </div>
@@ -67,7 +67,7 @@
                 <div class="row big-gutter">
                     <div class="col l-3">
                         <div class="reason__content">
-                            <div class="reason__warp-img" style="background-image: url(./assets/img/img_brain.png); background-repeat: no-repeat; background-size: 100%;">
+                            <div class="reason__warp-img reason__warp-img--background-brain">
                                 <img class="reason__img" src="./assets/img/brain.svg" alt="">
                             </div>
                             <p class="reason__text">Các kỹ thuật ghi nhớ được khoa học chứng minh</p>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="col l-3">
                         <div class="reason__content">
-                            <div class="reason__warp-img" style="background-image: url(./assets/img/img_phone.png); background-repeat: no-repeat; background-size: 100%;">
+                            <div class="reason__warp-img reason__warp-img--background-phone">
                                 <img class="reason__img" src="./assets/img/phone.svg" alt="">
                             </div>
                             <p class="reason__text">Học nhanh hơn gấp hai lần so với trên lớp</p>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col l-3">
                         <div class="reason__content">
-                            <div class="reason__warp-img" style="background-image: url(./assets/img/img_person.png); background-repeat: no-repeat; background-size: 100%;">
+                            <div class="reason__warp-img reason__warp-img--background-person">
                                 <img class="reason__img" src="./assets/img/person.svg" alt="">
                             </div>
                             <p class="reason__text">Học bằng cách đắm mình trong ngôn ngữ, như thế bạn đang sống ở đó vậy.</p>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col l-3">
                         <div class="reason__content">
-                            <div class="reason__warp-img" style="background-image: url(./assets/img/img_rocket.png); background-repeat: no-repeat; background-size: 100%;">
+                            <div class="reason__warp-img reason__warp-img--background-rocket">
                                 <img class="reason__img" src="./assets/img/rocket.svg" alt="">
                             </div>
                             <p class="reason__text">Bao quát mọi thứ từ những kiến thức thiết yếu cho những chuyến du lịch của bạn tới những mục tiêu dài hạn hơn</p>
@@ -106,7 +106,7 @@
                 <div class="row">
                     <div class="col l-4">
                         <div class="introcduce__content">
-                            <div class="introcdece__wrap-img" style="background-image: url(./assets/img/Ellipse\ 1.png); background-size: 100%; background-repeat: no-repeat;">
+                            <div class="introcdece__wrap-img">
                                 <img src="./assets/img/menu.png" alt="" class="introcduce__content-img">
                             </div>
                             <h3 class="introcduce__content-heading">Lộ trình học tập</h3>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="col l-4">
                         <div class="introcduce__content">
-                            <div class="introcdece__wrap-img" style="background-image: url(./assets/img/Ellipse\ 1.png); background-size: 100%; background-repeat: no-repeat;">
+                            <div class="introcdece__wrap-img">
                                 <img src="./assets/img/book.png" alt="" class="introcduce__content-img">
                             </div>
                             <h3 class="introcduce__content-heading">Bổ sung từ vựng</h3>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="col l-4">
                         <div class="introcduce__content">
-                            <div class="introcdece__wrap-img" style="background-image: url(./assets/img/Ellipse\ 1.png); background-size: 100%; background-repeat: no-repeat;">
+                            <div class="introcdece__wrap-img">
                                 <img src="./assets/img/free.png" alt="" class="introcduce__content-img">
                             </div>
                             <h3 class="introcduce__content-heading">Nền tảng miễn phí</h3>
@@ -262,7 +262,7 @@
                 <div class="info__heading">Nhận thông tin mới nhất từ chúng tôi</div>
                 <form action="">
                     <input type="email" placeholder="Nhập email của bạn vào đây" class="info__input">
-                    <input type="submit" class="info__submit" style="background-image: url(./assets/img/submit.png); background-repeat: no-repeat; background-size: 100%;">
+                    <input type="submit" class="info__submit">
                 </form>
             </div>
         </div>
@@ -271,7 +271,7 @@
                 <div class="footer__heading">
                     5Fs Group - Nền tảng học ngoại ngữ online
                 </div>
-                <a class="btn">Bắt đầu</a>
+                <a href="./login.html" class="btn">Bắt đầu</a>
             </div>
             <div class="grid wide">
                 <div class="row">
