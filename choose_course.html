@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/choose_course.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/respontive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="grid wide">
+                <div class="header_wrap">
+                    <h2 class="header__name">5Fs Group</h2>
+                    <div class="nav">
+                        <a href="" class="nav__statr btn">Đăng xuất</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid wide">
+                <div class="content">
+                    <div class="content__heading">
+                        <div class="content__switch" id="step-1">
+                            <div class="content__switch-number">1</div>
+                            <div class="content__switch-text">Chọn khóa học</div>
+                        </div>
+                        <div class="content__switch no-active" id="step-2">
+                            <div class="content__switch-number">2</div>
+                            <div class="content__switch-text">Đặt mục tiêu</div>
+                        </div>
+                        <div class="content__switch no-active" id="step-3">
+                            <div class="content__switch-number">3</div>
+                            <div class="content__switch-text">Bắt đầu học</div>
+                        </div>
+                    </div>
+                    <div class="content__choose" id="selection">
+                        <div class="content__choose-heading">Tôi muốn học:</div>
+                        <div class="content__choose-wrap">
+                            <div class="content__choose-language" id="choose-enlish">
+                                <div class="content__choose-language-background">
+                                    <img src="./assets/img/America.png" alt="" class="content__choose-language-img">
+                                </div>
+                                <div class="content__choose-text">Tiếng Anh</div>
+                            </div>
+                            <div class="content__choose-language" id="choose-japan">
+                                <div class="content__choose-language-background">
+                                    <img src="./assets/img/Japan.png" alt="" class="content__choose-language-img">
+                                </div>
+                                <div class="content__choose-text">Tiếng Nhật</div>
+                            </div>
+                        </div>
+                        <div class="content__choose-continue no-active" id="continue-step1">
+                            Tiếp tục
+                        </div>
+                    </div>
+                    <div class="content__target" id="targer">
+                        <div class="content__target-heading">Đặt mục tiêu học tập hằng ngày</div>
+                        <ul class="content__target-list">
+                            <li id="targer__choose-1" class="content__targer-item"><span class="content__targer-item-text">Thông thường</span><span class="content__targer-item-word">5 từ</span></li>
+                            <li id="targer__choose-2" class="content__targer-item"><span class="content__targer-item-text">Đều đặn</span><span class="content__targer-item-word">10 từ</span></li>
+                            <li id="targer__choose-3" class="content__targer-item"><span class="content__targer-item-text">Nghiêm túc</span><span class="content__targer-item-word">15 từ</span></li>
+                            <li id="targer__choose-4" class="content__targer-item"><span class="content__targer-item-text">Cao độ</span><span class="content__targer-item-word">20 từ</span></li>
+                        </ul>
+                        <div class="content__target-node">
+                            Bạn có thể thay đổi mục tiêu này trong cài đặt hồ sợ
+                        </div>
+                        <div class="content__choose-continue no-active" id="continue-step2">
+                            Tiếp tục
+                        </div>
+                    </div>
+                    <div class="content__loading" id="loading">
+                        <div class="content__loading-heading">
+                            Đang khỏi tạo...
+                        </div>
+                        <img src="./assets/img/Loading.gif" alt="" class="content__loading-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<script src="./assets/javascript/choose__laguage.js"></script>
+
+</html>
