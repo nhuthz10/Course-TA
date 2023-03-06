@@ -38,6 +38,11 @@ html {
     user-select: none;
 }
 
+.btn.btn--primary {
+    background-color: #1CB0F6;
+    border-bottom: 5px solid #5182C1;
+}
+
 .btn:active {
     transform: translateY(2px);
     opacity: 0.8;
