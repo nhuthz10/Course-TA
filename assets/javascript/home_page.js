@@ -3,7 +3,7 @@ const studyJapanbtn = document.querySelector('.js-japan-btn');
 const modalStudy = document.querySelector('.modal-study');
 const closeModalstudy = document.querySelector('.js-modal-study__close');
 const modalStudycontainer = document.querySelector('.js-modal-study__container')
-
+    // modal
 studyEnglishbtn.addEventListener('click', function() {
     modalStudy.classList.add('open-modal-study');
 })

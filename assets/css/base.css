@@ -3,9 +3,23 @@
     --black-color: #000;
     --header-height: 90px;
     --main-color: #235390;
+    --main-color-plus-1: #0A4A82;
+    --main-color-plus-2: #6D8DB6;
+    --main-color-plus-3: #98B4D9;
+    --main--text-color: #42637D;
+    --separate-color: #cccccc;
+    --grey-color: #ccc;
+    --grey-plus-1-color: #E3E7EF;
+    --main-introcduce-color: #F6F6F6;
+    --background-input-color: #F7F7F7;
+    --background-bar-color: #E7EAF0;
+    --shadow-input-color: #E5E5E5;
     --green-color: #58CC02;
+    --green-shadow-color: #58A700;
     --height-input-login: 58px;
     --width-input-login: 450px;
+    --btn-primary-color: #1CB0F6;
+    --btn-primary-border-color: #5182C1;
 }
 
 * {
@@ -22,7 +36,7 @@ html {
     width: 160px;
     height: 50px;
     text-decoration: none;
-    border-bottom: 5px solid #58A700;
+    border-bottom: 5px solid var(--green-shadow-color);
     border-radius: 15px;
     font-size: 2rem;
     font-weight: 700;
@@ -33,14 +47,14 @@ html {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #58CC02;
+    background-color: var(--green-color);
     -webkit-user-select: none;
     user-select: none;
 }
 
 .btn.btn--primary {
-    background-color: #1CB0F6;
-    border-bottom: 5px solid #5182C1;
+    background-color: var(--btn-primary-color);
+    border-bottom: 5px solid var(--btn-primary-border-color);
 }
 
 .btn:active {

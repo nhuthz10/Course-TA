@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/setting_page.css">
+    <link rel="stylesheet" href="./assets/css/respontive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid">
+            <div class="row">
+                <div class="col l-3">
+                    <div class="nav">
+                        <div class="nav__heading">5Fs Group</div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./home_page.html" class="nav__item-link"><img src="./assets/img/home.svg" alt="" class="nav__item-img"><span class="nav__item-text">TRANG CHỦ</span></a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./course_page.html" class="nav__item-link"><img src="./assets/img/course.svg" alt="" class="nav__item-img"><span class="nav__item-text">KHÓA HỌC</span></a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="./profile_page.html" class="nav__item-link"><img src="./assets/img/file.svg" alt="" class="nav__item-img"><span class="nav__item-text">HỒ SƠ</span></a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="" class="nav__item-link nav__item-link--chose"><img src="./assets/img/setting.svg" alt="" class="nav__item-img"><span class="nav__item-text">CÀI ĐẶT</span></a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="" class="nav__item-link"><img src="./assets/img/logout.svg" alt="" class="nav__item-img"><span class="nav__item-text">ĐĂNG XUẤT</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-9">
+                    <div class="setting">
+                        <div class="setting__title">Cài đặt</div>
+                        <div class="setting__header">
+                            <img src="./assets/img/setting-avatar.svg" alt="" class="setting__header-img">
+                            <div class="setting__header-content">
+                                <div class="setting__header-name">Thinh Le</div>
+                                <a href="./profile_page.html" class="setting__header-wach-profile">Xem hồ sơ</a>
+                            </div>
+                        </div>
+                        <div class="setting-content">
+                            <div class="setting-nav">
+                                <div class="setting-nav-account setting-nav-active">Tài khoản</div>
+                                <div class="setting-nav-password">Mật khẩu</div>
+                                <div class="setting-nav-system">Hệ thống</div>
+                                <div class="setting-nav-targer">Mục tiêu</div>
+                            </div>
+                            <div class="setting-account">
+                                <form action="">
+                                    <div class="avata-profile">
+                                        <div class="avata-profile__title">Ảnh hồ sơ</div>
+                                        <div class="avata-profile__file">
+                                            <div class="avata-profile__choose-file">Chọn tập tin</div>
+                                            <div class="avata-profile-text">chỉ chấp nhận file .png .jpeq .jpg</div>
+                                        </div>
+                                    </div>
+                                    <div class="name-profile">
+                                        <div class="name-profile__title">Tên hiển thị</div>
+                                        <input type="text" class="name-profile__file" value="Thinh Le"></input>
+                                    </div>
+                                    <div class="name-login">
+                                        <div class="name-login__title">Tên đăng nhập</div>
+                                        <input type="text" class="name-login__file" value="admin"></input>
+                                    </div>
+                                    <div class="name-email">
+                                        <div class="name-email__title">Email</div>
+                                        <input type="text" class="name-email__file" value="muradvn2003@gmail.com"></input>
+                                    </div>
+                                    <input type="submit" value="Lưa thay đổi" class="save-btn">
+                                </form>
+                            </div>
+                            <div class="setting-password">
+                                <form action="">
+                                    <div class="current-password">
+                                        <div class="current-password__title">Mật khẩu hiện tại</div>
+                                        <input type="password" class="current-password__file"></input>
+                                    </div>
+                                    <div class="new-password">
+                                        <div class="new-password__title">Mật khẩu mới</div>
+                                        <input type="password" class="new-password__file"></input>
+                                    </div>
+                                    <input type="submit" value="Lưa thay đổi" class="save-btn">
+                                </form>
+                            </div>
+                            <div class="setting-system">
+                                <form action="">
+                                    <div class="send-mail">
+                                        <div class="send-mail__title">Giử mail cho tôi khi</div>
+                                        <div class="send-mail__list">
+                                            <div class="send-mail__file">
+                                                <img src="./assets/img/ready.png" alt="" class="send-mail__file-img">
+                                                <img src="" alt="" class="send-mail__file-img">
+                                                <div class="send-mail__file-text">Có cập nhật mới</div>
+                                            </div>
+                                            <div class="send-mail__file">
+                                                <img src="./assets/img/ready.png" alt="" class="send-mail__file-img">
+                                                <img src="" alt="" class="send-mail__file-img">
+                                                <div class="send-mail__file-text">Báo cáo tiến trình hằng ngày</div>
+                                            </div>
+                                            <div class="send-mail__file">
+                                                <img src="./assets/img/ready.png" alt="" class="send-mail__file-img">
+                                                <img src="" alt="" class="send-mail__file-img">
+                                                <div class="send-mail__file-text">Nhắc nhở tiến trình học tập</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="Lưa thay đổi" class="save-btn">
+                                </form>
+                            </div>
+                            <div class="setting-targer">
+                                <form action="">
+                                    <div class="edit-targer">
+                                        <div class="edit-targer__title">Sửa mục tiêu học tập hằng ngày</div>
+                                        <div class="edit-targer__title-text">Chọn một mục tiêu mỗi ngày sẽ giúp bạn luôn có động lực khi học tập một ngôn ngữ. Nhưng đừng lo, bạn có thể thay đổi mục tiêu luyện tập bất cứ lúc nào.</div>
+                                        <div class="edit-targer__content">
+                                            <img src="./assets/img/setting-targer.svg" alt="" class="edit-targer__content-img">
+                                            <ul class="edit-targer__content-list">
+                                                <li class="edit-targer__content-item"><span class="edit-targer__content-item-text">Thông thường</span><span class="edit-targer__content-item-number">5 từ</span></li>
+                                                <li class="edit-targer__content-item"><span class="edit-targer__content-item-text">Điều đặn</span><span class="edit-targer__content-item-number">10 từ</span></li>
+                                                <li class="edit-targer__content-item edit-targer__content-item--choose"><span class="edit-targer__content-item-text">Nghiêm túc</span><span class="edit-targer__content-item-number">15 từ</span></li>
+                                                <li class="edit-targer__content-item"><span class="edit-targer__content-item-text">Cao độ</span><span class="edit-targer__content-item-number">20 từ</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="Lưa thay đổi" class="save-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/javascript/setting_page.js"></script>
+
+</html>
