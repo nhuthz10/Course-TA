@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Profile_Trung.css">
+    <script src="https://kit.fontawesome.com/c39c442009.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/img/Logo_web.png" type="image/x-icon" />
+    <title>5Fs - Giúp bạn tự tin trong ngoại ngữ</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items">
+            <div class="photo">
+                <img src="https://image.vtc.vn/resize/th/upload/2022/09/26/len-san-khau-voi-vai-tro-ca-si-le-duong-bao-lam-than-tho-di-hat-chua-hoa-duoc-von7-10474681.jpg" />
+            </div>
+            <div class="left" id="full">
+                <div class="social-icons">
+                    <a class="share-btn">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="share-btn">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="share-btn">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="share-btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="share-btn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="col col-half contact-form">
+                    <form action="">
+                        <div class="row row-above">
+                            <div class="col col-half contact-input">
+                                <input type="text" placeholder="Name" required name="" id="form-control">
+                            </div>
+
+                            <div class="col col-half contact-input">
+                                <input type="email" placeholder="Email" required name="" id="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mt-8 row-under">
+                            <div class="col col-full">
+                                <input type="text" placeholder="Message" required name="" id="form-control">
+                            </div>
+                        </div>
+
+
+
+                    </form>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <table class="table">
+                <tr>
+                    <td> ID Student </td>
+                    <td> 47.01.104.223 </td>
+                </tr>
+                <tr>
+                    <td> Name </td>
+                    <td> Nguyễn Đức Trung </td>
+                </tr>
+                <tr>
+                    <td> Birth Date</td>
+                    <td> 29/02/2003 </td>
+                </tr>
+                <tr>
+                    <td> Gender </td>
+                    <td> Male </td>
+                </tr>
+                <tr>
+                    <td> Phone </td>
+                    <td> 0777111333 </td>
+                </tr>
+                <tr>
+                    <td> Email </td>
+                    <td> trungnguyen32182@gmail.com </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="toggler">
+        <span style="background: linear-gradient(to right, #fc6767, #ec008c);"></span>
+        <span style="background: linear-gradient(to right, #24bc0d, #00c157, #00c584, #00c6a6, #0fc6be);"></span>
+        <span style="background: linear-gradient(to right, #232faa, #006bdb, #009df0, #00cbf2, #0cf6ec);"></span>
+        <span style="background: linear-gradient(to right, #21D4FD, #B721FF);"></span>
+        <span style="background: linear-gradient(to right, #F76B1C, #FAD961);"></span>
+    </div>
+
+    <script>
+        var themeColor = document.querySelectorAll('.toggler span');
+        themeColor.forEach(color => color.addEventListener('click', () => {
+            var background = color.style.background;
+            document.querySelector('body').style.background = background;
+        }));
+    </script>
+</body>
+
+</html>

@@ -56,6 +56,7 @@
     background-color: var(--main-color);
     margin-top: var(--header-height);
     position: relative;
+    background-image: url(https://bom.so/SZeVgi);
 }
 
 .slider-wrap {
@@ -511,6 +512,7 @@
 
 .footer {
     background-color: var(--main-color);
+    background-image: url(https://bom.so/SZeVgi);
 }
 
 .footer_wrap {

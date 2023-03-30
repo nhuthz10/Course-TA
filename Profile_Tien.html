@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Profile_Tien.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" href="./assets/img/Logo_web.png" type="image/x-icon" />
+    <title>5Fs - Giúp bạn tự tin trong ngoại ngữ</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="picture">
+            <h1 class="picture_heading">
+                <i class="fa-sharp fa-regular fa-user"></i> Profile Picture
+            </h1>
+            <div class="wrap-picture_img">
+                <img src="./assets/img/Profile_TT-img/download.jpg" alt="Cat picture" class="picture_img">
+            </div>
+            <p class="picture_text">This is my picture</p>
+        </div>
+
+        <div class="infor">
+            <h1 class="infor_heading">
+                <i class="fa-regular fa-address-card"></i> Profile Information
+            </h1>
+            <div class="wrap-infor_table">
+                <table class="infor_table">
+                    <tr>
+                        <th>Full name</th>
+                        <td>Huynh Thanh Tien</td>
+                    </tr>
+                    <tr>
+                        <th>Day of birth</th>
+                        <td>17/11/2002</td>
+                    </tr>
+                    <tr>
+                        <th>Email address</th>
+                        <td>theboyhunter123@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>
+                            <input class="infor_table_radio" type="radio" name="radio" checked="checked">
+                            <label>Male</label><br>
+                            <input class="infor_table_radio" type="radio" name="radio">
+                            <label>Female</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td>
+                            <select id="infor_table_select" name="country">
+                                <option value="vn">VietNam</option>
+                                <option value="tl">ThaiLand</option>
+                                <option value="kor">Korea</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Social</th>
+                        <td>
+                            <!-- <i class="fa-brands fa-facebook">
+                                <input class="infor_table_button" type="button" value="Facebook">
+                            </i> -->
+
+                            <i class="fa-brands fa-facebook"> 
+                            <button class="infor_table_button">
+                                <a  
+                                class="infor_table_button-text" 
+                                href="https://www.facebook.com/profile.php?id=100008558555907"
+                                >
+                                Facebook
+                            </a>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Hobby</th>
+                        <td>
+                            <textarea class="infor_table_textarea">Interested in nothing.</textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>    
+        </div>
+    </div>
+    
+</body>
+</html>
