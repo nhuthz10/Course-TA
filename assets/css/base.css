@@ -16,10 +16,16 @@
     --shadow-input-color: #E5E5E5;
     --green-color: #58CC02;
     --green-shadow-color: #58A700;
+    --answer-right-color: #D7FFB8;
+    --answer-right-text-color: #8DBC00;
+    --answer-false-color: #FFDFE0;
+    --answer-false-text-color: #EC0B1B;
     --height-input-login: 58px;
     --width-input-login: 450px;
     --btn-primary-color: #1CB0F6;
     --btn-primary-border-color: #5182C1;
+    --btn-danger-color: #FF4B4B;
+    --btn-danger-border-color: #EC4444;
 }
 
 * {
@@ -55,6 +61,11 @@ html {
 .btn.btn--primary {
     background-color: var(--btn-primary-color);
     border-bottom: 5px solid var(--btn-primary-border-color);
+}
+
+.btn.btn--danger {
+    background-color: var(--btn-danger-color);
+    border-bottom: 5px solid var(--btn-danger-border-color);
 }
 
 .btn:active {
